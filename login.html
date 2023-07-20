@@ -42,31 +42,9 @@
     <!-- Spinner End -->
 
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark p-0">
-        <div class="row gx-0 d-block d-sm-flex">
-            <div class="col-sm-8 px-0 text-start">
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="col-sm-4 px-0 text-end">
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <a class="btn btn-square btn-link rounded-0" href="login.html">Login</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
-
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-            <!-- <h2 class="m-0 text-primary">3S</h2> -->
             <img src="img/logo.png" alt="Logo 3S" height="80%">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -74,12 +52,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">Sobre</a>
-                
-                <a href="contact.html" class="nav-item nav-link active">Contato</a>
+                <!-- <a href="index.html" class="nav-item nav-link active">Home</a> -->
+                <!-- <a href="about.html" class="nav-item nav-link">Sobre</a> -->
+
+                <!-- <a href="contact.html" class="nav-item nav-link">Contato</a> -->
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
             </div>
-            <a href="calc.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Calcule Aqui<i class="fa fa-arrow-right ms-3"></i></a>
+            <!-- <a href="calc.html" class="btn btn-primary rounded-0 px-4 px-lg-5 d-none d-xs-block">Calcule Aqui<i class="fa fa-arrow-right ms-3"></i></a> -->
         </div>
     </nav>
     <!-- Navbar End -->
@@ -87,7 +71,7 @@
 
 
     <!-- Calc Start -->
-    <div class="container-fluid bg-light overflow-hidden px-lg-0" style="margin: 6rem 0;">
+    <div class="container-fluid bg-light overflow-hidden px-lg-0">
         <div class="container contact px-lg-0">
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-2"></div>
@@ -141,13 +125,15 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Acesso Rápido</h5>
-                    <a class="btn btn-link" href="">Sobre</a>
-                    <a class="btn btn-link" href="">Contato</a>
+                    <a class="btn btn-link" href="index.html">Início</a>
+                    <a class="btn btn-link" href="contact.html">Contato</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     
                 </div>
                 <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Parceiros</h5>
+                    <a class="btn btn-link" href="login.html">Login</a>
                     
                 </div>
             </div>

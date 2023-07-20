@@ -43,7 +43,7 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark p-0">
+    <!-- <div class="container-fluid bg-dark p-0">
         <div class="row gx-0 d-block d-sm-flex">
             <div class="col-sm-8 px-0 text-start">
                 <div class="h-100 d-inline-flex align-items-center me-4">
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Topbar End -->
 
 
@@ -73,69 +73,188 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">Sobre</a>
+                <!-- <a href="index.html" class="nav-item nav-link active">Home</a> -->
+                <!-- <a href="about.html" class="nav-item nav-link">Sobre</a> -->
 
-                <a href="contact.html" class="nav-item nav-link">Contato</a>
+                <!-- <a href="contact.html" class="nav-item nav-link">Contato</a> -->
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
             </div>
-            <a href="calc.html" class="btn btn-primary rounded-0 px-4 px-lg-5 d-none d-xs-block">Calcule Aqui<i class="fa fa-arrow-right ms-3"></i></a>
+            <!-- <a href="calc.html" class="btn btn-primary rounded-0 px-4 px-lg-5 d-none d-xs-block">Calcule Aqui<i class="fa fa-arrow-right ms-3"></i></a> -->
         </div>
     </nav>
     <!-- Navbar End -->
 
-
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-1.jpg'>">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-2 text-white animated slideInDown">Descubra o poder do sol em sua residência e encontre parceiros confiáveis.</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="calc.html" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Calcule Aqui</a>
+    <div class="container-fluid bg-light overflow-hidden px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <div class="img_covver">
+                            <img class="w-100" src="img/capa.jpeg"  alt="">
+                            <div class="mask text-light d-flex justify-content-center flex-column text-center" style="background-color: rgba(0, 0, 0, 0.5)">
+                            
+                                <h4 class="text_img_covver">Descubra o poder do sol em sua residência e encontre parceiros confiáveis.</h4>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-2.jpg'>">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-2 text-white animated slideInDown">Descubra o poder do sol em sua residência e encontre parceiros confiáveis.</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="calc.html" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Calcule Aqui</a>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h6 class="text-primary">Solar Sustainable Solutions</h6>
+                        <h1 class="mb-4">Obtenha cotações grátis</h1>
+                        <p class="mb-4 pb-2">Faça uma busca por empresas confiáveis para o desenvolvimento do seu projeto de painéis solares em apenas dois cliques! </p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <input type="text" class="form-control border-0" placeholder="Insira seu CEP" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control border-0" placeholder="Valor da sua Fatura" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control border-0" placeholder="KW consumidos mensalmente" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="email" class="form-control border-0" placeholder="Insira seu E-mail" style="height: 55px;">
+                                </div>
+                                <!-- <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div> -->
+                                <!-- <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div> -->
+                                <div class="col-12">
+                                    <a class="btn btn-primary rounded-pill py-3 px-5" href="calc.html">Calcular</a>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-3.jpg'>">
-                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-2 text-white animated slideInDown">Descubra o poder do sol em sua residência e encontre parceiros confiáveis.</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="calc.html" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Calcule Aqui</a>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Perguntas Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Sua dúvida é nossa prioridade</h6>
+                <h1 class="mb-4">Perguntas Frequentes</h1>
+            </div>
+            
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      Pergunta #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor libero id odio varius, id bibendum risus scelerisque. Sed sed ligula mattis, aliquet risus sit amet, ultricies nibh. Curabitur non suscipit massa. Etiam at tortor arcu. Cras non laoreet nunc. Sed eget blandit erat. Sed leo ligula, efficitur ac lorem ut, pulvinar pulvinar leo. Vivamus congue rutrum laoreet. Nullam libero odio, iaculis quis tristique ac, venenatis non risus. Nullam in justo augue. Fusce quis feugiat diam. Ut sed sem augue. Aenean tincidunt diam quis nisl commodo, eget sagittis erat finibus. Fusce neque nunc, vehicula eu orci laoreet, malesuada eleifend neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Pergunta #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor libero id odio varius, id bibendum risus scelerisque. Sed sed ligula mattis, aliquet risus sit amet, ultricies nibh. Curabitur non suscipit massa. Etiam at tortor arcu. Cras non laoreet nunc. Sed eget blandit erat. Sed leo ligula, efficitur ac lorem ut, pulvinar pulvinar leo. Vivamus congue rutrum laoreet. Nullam libero odio, iaculis quis tristique ac, venenatis non risus. Nullam in justo augue. Fusce quis feugiat diam. Ut sed sem augue. Aenean tincidunt diam quis nisl commodo, eget sagittis erat finibus. Fusce neque nunc, vehicula eu orci laoreet, malesuada eleifend neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Pergunta #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor libero id odio varius, id bibendum risus scelerisque. Sed sed ligula mattis, aliquet risus sit amet, ultricies nibh. Curabitur non suscipit massa. Etiam at tortor arcu. Cras non laoreet nunc. Sed eget blandit erat. Sed leo ligula, efficitur ac lorem ut, pulvinar pulvinar leo. Vivamus congue rutrum laoreet. Nullam libero odio, iaculis quis tristique ac, venenatis non risus. Nullam in justo augue. Fusce quis feugiat diam. Ut sed sem augue. Aenean tincidunt diam quis nisl commodo, eget sagittis erat finibus. Fusce neque nunc, vehicula eu orci laoreet, malesuada eleifend neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="margin: 3rem 0;">
+                <h4 class="mb-4">Não encontrou a sua dúvida?</h4>
+                <a class="btn btn-primary rounded-pill py-3 px-5" href="contact.html">Entre em Contato</a>
+            </div>
+        </div>
+    </div>
+    <!-- Perguntas End -->
+
+
+    <!-- Carousel Start -->
+    <!-- <div class="container-fluid p-0 pb-5">
+        <div class="row">
+            <div class="col-md-4">
+
+                <div class="img_covver" style="max-width: 50rem;">
+                    <img src="img/capa.jpeg" class="w-100" />
+                    <div class="mask text-light d-flex justify-content-center flex-column text-center" style="background-color: rgba(0, 0, 0, 0.5)">
+                    <h4 class="text_img_covver">Descubra o poder do sol em sua residência e encontre parceiros confiáveis.</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-7" style="margin: 4rem 0;">
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="CEP" placeholder="Insira o seu CEP">
+                                <label for="name">Insira o seu CEP</label>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" placeholder="Valor da sua fatura">
+                                <label for="email">Valor da sua Fatura</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" placeholder="KW consumidos mensalmente">
+                                <label for="subject">KW consumidos mensalmente</label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12">
+                            <a class="btn btn-primary rounded-pill py-3 px-5" href="calc.html">Calcular</a>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+
+
+
+        </div>
+        
+
+        
+
+    </div> -->
     <!-- Carousel End -->
 
 
     <!-- Feature Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
@@ -180,12 +299,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Feature Start -->
 
 
     <!-- About Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <!-- <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
         <div class="container about px-lg-0">
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
@@ -212,11 +331,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- About End -->
 
     <!-- Feature Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <!-- <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
         <div class="container feature px-lg-0">
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -279,11 +398,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Feature End -->
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h6 class="text-primary">Depoimentos</h6>
@@ -331,7 +450,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 
@@ -353,12 +472,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Acesso Rápido</h5>
-                    <a class="btn btn-link" href="">Sobre</a>
-                    <a class="btn btn-link" href="">Contato</a>
+                    <a class="btn btn-link" href="index.html">Início</a>
+                    <a class="btn btn-link" href="contact.html">Contato</a>
                 </div>
                 <div class="col-lg-3 col-md-6">                    
                 </div>
                 <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Parceiros</h5>
+                    <a class="btn btn-link" href="login.html">Login</a>
                 </div>
             </div>
         </div>
